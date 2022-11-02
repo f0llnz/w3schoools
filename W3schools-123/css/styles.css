@@ -1,0 +1,179 @@
+:root {
+    --main-color: #04AA6D;
+    --white: #fff;
+    --boxbackground: #D9EEE1;
+    --background: #282A35;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--background);
+    font-weight: 500;
+}
+ul li img{
+    width: 25px;
+    padding-top: 13px;
+    left: auto;
+    cursor: pointer;
+}
+li {
+    float: left;
+    margin-left: 15px;
+}
+  
+li a {
+    display: block;
+    color: var(--white);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 600 !important;
+    font-size: 17px;
+}
+  
+li a:hover {
+    background-color: var(--background);
+}
+.log-bar{
+    width: 100%;
+    background-color: var(--white);
+    height: 80px;
+    position: relative;
+}
+.log-bar button{
+    float: right;
+    display: inline;
+    width: 150px;
+    background-color: rgb(4, 170, 109);
+    color: var(--white);
+    border-radius: 25px;
+    height: 50px;
+    padding: 8px 12px;
+    border: none;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+.log-bar button a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700;
+}
+.log-bar img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    color: var(--main-color);
+    margin: 10px 30px;
+}
+h1{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.btns{
+    padding: 50px;
+    padding-bottom: 75px;
+}
+.btns .right{
+    background-color: rgb(4, 170, 109);
+    border-radius: 5px;
+    height: 50px;
+    padding: 8px 12px;
+    border: none;
+    width: 120px;
+    float: right;
+    color: var(--white);
+    display: inline;
+}
+.btns .left{
+    background-color: rgb(4, 170, 109);
+    border-radius: 5px;
+    height: 50px;
+    padding: 8px 12px;
+    border: none;
+    width: 100px;
+    float: left;
+    color: var(--white);
+    display: inline;
+}
+.btns a{
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 19;
+    font-weight: 500;
+}
+#box{
+    background:var(--boxbackground);
+    width: 100%;
+    height: 30%;
+}
+#box .paragraph{
+    padding: 50px 30px;
+}
+#box p{
+    font-size: 18px;
+    font-weight: 500;
+}
+#box button{
+    background-color: rgb(4, 170, 109);
+    border-radius: 5px;
+    height: 50px;
+    padding: 8px 12px;
+    border: none;
+    width: 300px;
+    color: var(--white);
+}
+#box button a{
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 18;
+    font-weight: 500;
+}
+
+  
+/* ესენი იდეაში არ მჭირდება, ვინაიდან ბუთსტრაპით გავაკეთე, მაგრამ სხვა შემთხვევაში კლასებს ამის მიხედვით გავწერდი*/
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
